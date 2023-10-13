@@ -1,0 +1,28 @@
+{
+  "name": "techtest",
+  "version": "1.0.0",
+  "description": "Spidertracks tech challenge",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "./node_modules/.bin/jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spidertracks/techtest.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spidertracks/techtest/issues"
+  },
+  "homepage": "https://github.com/Spidertracks/techtest#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.8.5",
+    "@types/typescript": "^2.0.0",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
